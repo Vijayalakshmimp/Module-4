@@ -13,14 +13,13 @@ To write a Python program that calculates the **area of a circle** based on the 
 ## 🧾 Program
 ~~~
 import math
-class Saveetha:
-    def __init__(self, r):
-        self.area = math.pi * (r ** 2) 
-    def slot(self):
-        print("Area of circle:", round(self.area, 2))
-r = float(input())
-res = Saveetha(r)  
-res.slot()
+class cse:
+    def mech(self, r):
+        area = math.pi * r * r
+        print("Area of the circle:", area)
+radius = float(input())
+obj = cse()
+obj.mech(radius)
 ~~~
 
 ## Output
